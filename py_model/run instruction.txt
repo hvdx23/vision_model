@@ -1,0 +1,8 @@
+RUN COMMANDS:\
+python -m venv vision
+
+.\vision\Scripts\Activate
+
+deactivate
+
+Remove-Item -Recurse -Force .\vision
